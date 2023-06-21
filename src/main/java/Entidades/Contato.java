@@ -6,14 +6,15 @@ public class Contato {
     private String id;
     private String nome;
     private String usuario;
+    private Integer idade;
 
-    
+
 
     public Contato() {
         
     }
 
-    public Contato(String id, String nome, String usuario) {
+    public Contato(String id, int idade1, String nome) {
         this.id = id;
         this.nome = nome;
         this.usuario = usuario;
@@ -41,5 +42,13 @@ public class Contato {
 
     public void setUsuario(String usuario) {
         this.usuario = usuario;
+    }
+    
+       public Integer getIdade() {
+        return idade;
+    }
+
+    public void setIdade(Integer idade) {
+        this.idade = idade;
     }
 }
