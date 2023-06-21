@@ -1,7 +1,6 @@
 package Conexão;
 
 import com.google.auth.oauth2.GoogleCredentials;
-import static com.google.cloud.storage.Storage.ListHmacKeysOption.serviceAccount;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
 import java.io.FileInputStream;
